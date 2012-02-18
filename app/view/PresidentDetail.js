@@ -6,6 +6,8 @@ Ext.define('Sencha.view.PresidentDetail', {
         title: 'Details',
         styleHtmlContent: true,
         scrollable: 'vertical',
-        html: 'Hello, World!'
+        tpl: [
+            'Hello {firstName}!'
+        ]
     }
 });
