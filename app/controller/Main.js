@@ -15,6 +15,7 @@ Ext.define('Sencha.controller.Main', {
     showDetail: function(list, record) {
         this.getMain().push({
             xtype: 'presidentdetail',
+            title: record.fullName(),
             data: record.data
         })
     }
