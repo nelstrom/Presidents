@@ -3,6 +3,10 @@ Ext.define('Sencha.store.Presidents', {
     
     config: {
         model: 'Sencha.model.President',
+        sorters: 'lastName',
+        grouper : function(record) {
+            return record.get('lastName')[0];
+        },
         data: [
             { firstName: "George", lastName: "Washington" },
             { firstName: "John", lastName: "Adams" },

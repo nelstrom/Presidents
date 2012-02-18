@@ -4,6 +4,7 @@ Ext.define('Sencha.view.PresidentList', {
     requires: ['Sencha.store.Presidents'],
     
     config: {
+        grouped: true,
         itemTpl: '{firstName} {lastName}',
         store: 'Presidents',
     }
