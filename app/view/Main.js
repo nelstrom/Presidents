@@ -1,9 +1,14 @@
 Ext.define('Sencha.view.Main', {
-    extend: 'Ext.Panel',
+    extend: 'Ext.navigation.View',
+    xtype: 'mainpanel',
+    requires: [
+        'Sencha.view.PresidentList',
+        'Sencha.view.PresidentDetail'
+    ],
 
     config: {
-        layout: 'fit',
-        styleHtmlContent: true,
-        scrollable: 'vertical'
+        items: [{
+            xtype: 'presidentlist'
+        }]
     }
 });
