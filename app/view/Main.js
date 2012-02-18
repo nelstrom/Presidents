@@ -2,9 +2,8 @@ Ext.define('Sencha.view.Main', {
     extend: 'Ext.Panel',
 
     config: {
-        fullscreen: true,
+        layout: 'fit',
         styleHtmlContent: true,
-        scrollable: 'vertical',
-        html: 'Hello, world!'
+        scrollable: 'vertical'
     }
 });
