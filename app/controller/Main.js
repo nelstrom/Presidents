@@ -12,9 +12,10 @@ Ext.define('Sencha.controller.Main', {
         }
     },
 
-    showDetail: function() {
+    showDetail: function(list, record) {
         this.getMain().push({
-            xtype: 'presidentdetail'
+            xtype: 'presidentdetail',
+            data: record.data
         })
     }
 
