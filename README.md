@@ -9,7 +9,7 @@ The tutorial includes several checkpoints:
 * [On item disclosure, reveal a generic detail panel][4] ([view diff][03-04])
 * [On item disclosure, reveal a personalized detail panel][5] ([view diff][04-05])
 
-## Using this repository to follow the screencast
+## Using this repository to [follow the screencast][video]
 
 First, you'll have to clone this repository:
 
@@ -42,3 +42,4 @@ By default, the git clone command will only create the master branch locally. If
 [04-05]: https://github.com/senchalearn/Presidents/compare/04_add_navigation_view...05_personalize_detail_panel
 
 [demo]: http://senchalearn.github.com/Presidents/
+[video]: https://vimeo.com/album/1846874/video/37212149
